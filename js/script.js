@@ -9,7 +9,6 @@ let linhas = '';
 
 form.addEventListener('submit', function (e) {
     e.preventDefault();
-
     adicionarValor();
     atualizaTabela();
     calculaMedia();
